@@ -1,0 +1,84 @@
+{
+  "MAIN_MENU": "Menu principal",
+  "LOGOUT": "Se déconnecter",
+  "ABOUT": "A propos",
+  "Documents": {
+    "EDIT": "Editer",
+    "VIEW": "Visualiser",
+    "DELETE": "Supprimer",
+    "EXPORT": "Exporter"
+  },
+  "screen": {
+    "LOGIN_WITH_KEYCLOAK": "Se connecter avec Keycloak ?",
+    "ABOUT_KALISIO": "A propos",
+    "CONTACT": "Contact",
+    "TERMS_AND_POLICIES": "Conditions générales"
+  },
+  "LayoutActivity": {
+    "LABEL": "Layout"
+  },  
+  "MiscellaneousActivity": {
+    "LABEL": "Divers"
+  },
+  "CollectionActivity": {
+    "LABEL": "Collections",
+    "LIST": "Liste",
+    "GRID": "Grille",
+    "TABLE": "Table",
+    "FILTER": "Filtrer"
+  },
+  "KanbanActivity": {
+    "LABEL": "Kanban",
+    "FILTER": "Filtrer"
+  },
+  "EditorActivity": {
+    "LABEL": "Editeur",
+    "EDIT": "Editer",
+    "VIEW": "Visualiser"
+  },
+  "ChartActivity": {
+    "LABEL": "Graphiques",
+    "PIE": "Camembert",
+    "BAR": "Bâtons",
+    "LINE": "Courbes"
+  },
+  "StoreActivity": {
+    "LABEL": "Store"
+  },
+  "Stamps": {
+    "LABEL": "Labels"
+  },
+  "Shapes": {
+    "LABEL": "Formes"
+  },
+  "ColorScales": {
+    "LABEL": "Echelles de couleurs"
+  },
+  "Times": {
+    "LABEL": "Composants temporels"
+  },
+  "ContextualHelp": {
+    "LABEL": "Aide contextuelle"
+  },
+  "WebPushActivity": {
+    "LABEL": "Web Push"
+  },
+  "tours": {
+    "home": {
+      "SIDENAV_LABEL": "Ouvrez à tout moment le menu principal via cette poignée.",
+      "SIDENAV_LINK_LABEL": "Parcourir le menu principal",
+      "TOP_PANE_LABEL": "Ouvrez à tout moment le volet supérieur via cette poignée.",
+      "RIGHT_PANE_LABEL": "Ouvrez à tout moment le volet droit via cette poignée.",
+      "BOTTOM_PANE_LABEL": "Ouvrez à tout moment le volet inférieur via cette poignée.",
+      "FAB_LABEL": "Exécuter rapidement des actions via ce bouton."
+    }
+  },
+  "webpush": {
+    "PUSH": "Envoyer",
+    "TITLE": "Titre",
+    "BODY": "Message",
+    "ICON": "Url de l'icône",
+    "URL": "Url de redirection",
+    "FORM_TITLE": "Personnalisation de la notification web"
+  }
+}

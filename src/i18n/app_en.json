@@ -1,0 +1,84 @@
+{
+  "MAIN_MENU": "Main menu",
+  "LOGOUT": "Logout",
+  "ABOUT": "About",
+  "Documents": {
+    "EDIT": "Edit",
+    "VIEW": "View",
+    "DELETE": "Delete",
+    "EXPORT": "Export"
+  },
+  "screen": {
+    "LOGIN_WITH_KEYCLOAK": "Login with Keycloak ?",
+    "ABOUT_KALISIO": "About",
+    "CONTACT": "Contact",
+    "TERMS_AND_POLICIES": "Terms and Policies"
+  },
+  "LayoutActivity": {
+    "LABEL": "Layout"
+  },
+  "MiscellaneousActivity": {
+    "LABEL": "Mismiscellaneous"
+  },
+  "CollectionActivity": {
+    "LABEL": "Collections",
+    "LIST": "List",
+    "GRID": "Grid",
+    "TABLE": "Table",
+    "FILTER": "Filter"
+  },
+  "KanbanActivity": {
+    "LABEL": "Kanban",
+    "FILTER": "Filter"
+  },
+  "EditorActivity": {
+    "LABEL": "Editor",
+    "EDIT": "Edit",
+    "VIEW": "View"
+  },
+  "ChartActivity": {
+    "LABEL": "Charts",
+    "PIE": "Pie",
+    "BAR": "Bar",
+    "LINE": "Line"
+  },
+  "StoreActivity": {
+    "LABEL": "Store"
+  },
+  "Stamps": {
+    "LABEL": "Stamps"
+  },
+  "Shapes": {
+    "LABEL": "Shapes"
+  },
+  "ColorScales": {
+    "LABEL": "Color scales"
+  },
+  "Times": {
+    "LABEL": "Time components"
+  },
+  "ContextualHelp": {
+    "LABEL": "Contextual help"
+  },
+  "WebPushActivity": {
+    "LABEL": "Web Push"
+  },
+  "tours": {
+    "home": {
+      "SIDENAV_LABEL": "Open the main menu any time using this handle.",
+      "SIDENAV_LINK_LABEL": "Browse the main menu",
+      "TOP_PANE_LABEL": "Open the top pane any time using this handle.",
+      "RIGHT_PANE_LABEL": "Open the right pane any time using this handle.",
+      "BOTTOM_PANE_LABEL": "Open the bottom pane any time using this handle.",
+      "FAB_LABEL": "Quickly execute actions using this button."
+    }
+  },
+  "webpush": {
+    "PUSH": "Push",
+    "TITLE": "Title",
+    "BODY": "Message",
+    "ICON": "Icon url",
+    "URL": "Redirection url",
+    "FORM_TITLE": "Customize web notification"
+  }
+}

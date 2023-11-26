@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://www.kalisio.xyz/schemas/custom.update.json#",
+  "title": "",
+  "description": "Viewer example",
+  "type": "object",
+  "properties": {
+     "KTextField": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 128,
+      "field": {
+        "component": "form/KTextField",
+        "label": "Text"
+      }
+    },
+    "KTextareaField": {
+      "type": "string",
+      "field": {
+        "component": "form/KTextareaField",
+        "label": "Text area"
+      }
+    },
+    "KAttachmentField": {
+      "type": "object",
+      "field": {
+        "component": "form/KAttachmentField",
+        "label": "Attachment"
+      }
+    },
+    "KChipsField": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "chips": true,
+      "field": {
+        "component": "form/KChipsField",
+        "label": "Chips"
+      }
+    },
+    "KDateTimeField": {
+      "type": "string",
+      "field": {
+        "component": "form/KDateTimeField",
+        "label": "Data/time"
+      }
+    },
+    "KEmailField": {
+      "type": "string",
+      "format": "email",
+      "field": {
+        "component": "form/KEmailField",
+        "label": "Email"
+      }
+    },
+    "KIconField": {
+      "type": "object",
+      "field": {
+        "component": "form/KIconField",
+        "label": "Icon"
+      }
+    },
+    "KItemField": {
+      "type": "object",
+      "services": ["custom"],
+      "field": {
+        "component": "form/KItemField",
+        "label": "Item"
+      }
+    },
+    "KNumberField": {
+      "type": "integer",
+      "field": {
+        "component": "form/KNumberField",
+        "label": "Number"
+      }
+    },
+    "KPhoneField": {
+      "type": "string",
+      "field": {
+        "component": "form/KPhoneField",
+        "label": "Phone"
+      }
+    },
+    "KSelectField": {
+      "type": "string",
+      "field": {
+        "component": "form/KSelectField",
+        "label": "Select",
+        "options": [
+          { "label": "Option 1", "value": "option1", "selected": "true" },
+          { "label": "Option 2", "value": "option2" }
+        ]
+      }
+    },
+    "KToggleField": {
+      "type": "string",
+      "field": {
+        "component": "form/KToggleField",
+        "label": "Toggle"
+      }
+    },
+    "KUrlField": {
+      "type": "string",
+      "format": "uri",
+      "field": {
+        "component": "form/KUrlField",
+        "label": "Url"
+      }
+    }
+  }
+}
